@@ -1,0 +1,11 @@
+name: mylastbasicworkflow
+on: workflow_dispatch
+jobs:
+  mybasicjob:
+  runs-on: ubuntu-latest
+  steps: 
+  - name: birth date
+    run: echo "5th march"
+  - name: mother name
+    run: echo "Nilima"
+  
