@@ -1,0 +1,12 @@
+name: fourth-workflow
+on: workflow_dispatch
+jobs:
+  myjob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: favourite sport
+        run: echo "Cricket"
+      - name: favouriate food
+        run: echo "Chicken"
+  
+    
