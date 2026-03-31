@@ -1,0 +1,11 @@
+name: fifth workflow
+on: workflow_dispatch
+jobs:
+  fifthjob:
+    runs-on: workflow_dispatch
+    steps:
+      - name: favouriate anime
+        run: echo "Naruto"
+      - name: favouriate character
+        run: echo "Shikamaru nara"
+  
